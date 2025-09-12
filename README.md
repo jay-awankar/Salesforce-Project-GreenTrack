@@ -29,6 +29,17 @@ Communities and organizations often organize eco-friendly activities such as tre
 3. Gamification & Recognition
 4. Reporting & Dashboards
 
+## 🛠️ Technical Implementation (Phases)
+
+- Phase 1: Requirement Gathering & Process Mapping.
+- Phase 2: Salesforce Org Setup (Profiles, Roles, Permissions).
+- Phase 3: Data Modeling (Objects: Eco Activity, Impact Score, Badge).
+- Phase 4: Process Automation (Flows for CO₂ calculation, badge assignment).
+- Phase 5: Apex (optional triggers for advanced logic).
+- Phase 6: UI (LWC for activity logging, dashboards).
+- Phase 7: Reports & Dashboards (Leaderboards, CO₂ trends).
+- Phase 8: Final Demo & GitHub Updates.
+
 ## 📊 Demo
 - Screenshots in `/reports_dashboards`
 - Video Link: [To be added]
