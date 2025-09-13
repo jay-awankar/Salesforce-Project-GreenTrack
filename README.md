@@ -98,7 +98,7 @@ click each to know more
 
 
 ## 📊 <a name="demo">Demo<a/>
-- Screenshots in `/reports_dashboards`
+- Screenshots and Docs in `/docs_n_media`
 - Video Link: [To be added]
 
 
@@ -108,7 +108,7 @@ Salesforce-Project-GreenTrack/
 │
 ├── assets/
 │
-├── docs_n_media/    # Phases wise distribution
+├── docs_n_media/    # Phase wise distribution
 │   └── All_Phases_docs_and_media
 │
 ├── greentrack/      # Project
