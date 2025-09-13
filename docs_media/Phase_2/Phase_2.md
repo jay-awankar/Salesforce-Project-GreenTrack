@@ -23,8 +23,8 @@
 - Licenses Assigned: Salesforce Platform license for non-admin users.
 
 ## 5. Roles & Hierarchy
-- Admin (highest)
-    ↳ NGO Manager
+- Admin (highest) <br>
+    ↳ NGO Manager <br>
     ↳ Participants
 <img src="/assets/Role_Hierarchy.svg" alt="role_hierarchy_img" width=500 />
 
