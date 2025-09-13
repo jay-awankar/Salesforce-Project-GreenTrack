@@ -1,6 +1,16 @@
 # 🌍 GreenTrack – Sustainability & Carbon Footprint Tracker
 
-## 🔎 Overview
+## 📋 <a name="table">Table of Content</a>
+- 🔎 [Introduction](#-introduction)
+- 🎯 [Objectives](#-objectives)
+- 🚀 [Features](#features)
+- ✅ [Use Cases](#usecases)
+- 🛠️ [Tech Stack](#techstack)
+- 🔑 [Technical Implementation](#techimp)
+- 📊 [Demo](#demo)
+- 📂 [Repository Structure](#repostr)
+
+## 🔎 <a name="introduction">Introduction</a>
 GreenTrack is a Salesforce CRM solution designed to track eco-friendly activities like tree plantations, recycling drives, and awareness events. It calculates environmental impact (e.g., CO₂ saved) and provides real-time dashboards for organizations to monitor sustainability initiatives.
 
 It helps individuals, institutions, and organizations record sustainability activities, calculate their environmental impact, and visualize progress through dashboards.
@@ -19,7 +29,7 @@ B2C & B2B Salesforce CRM implementation
 - Management / Admins → View dashboards, analyse impact, assign recognition.
 
 
-## 🎯 Objectives
+## 🎯 <a name="objectives">Objectives</a>
 - Provide a centralized platform to log eco-friendly activities.
 - Calculate carbon footprint reduction (e.g., trees planted → CO₂ saved).
 - Recognize active participants with badges/leaderboards.
@@ -27,7 +37,7 @@ B2C & B2B Salesforce CRM implementation
 - Create scalable solutions adaptable for schools, colleges, companies, or NGOs.
 
 
-## 🚀 Features
+## 🚀 <a name="features">Features</a>
 - Log sustainability activities
 - Automatic CO₂ reduction calculation
 - Badge assignment (Bronze/Silver/Gold)
@@ -35,7 +45,7 @@ B2C & B2B Salesforce CRM implementation
 - Real-time dashboards
 
 
-## ✅ Use Cases
+## ✅ <a name="usecases">Use Cases</a>
 ### 1. Activity Logging
 - Users can log activities such as tree plantation, waste recycling, or awareness events.
 - Each activity is linked with date, location, and participant.
@@ -58,7 +68,7 @@ B2C & B2B Salesforce CRM implementation
 - LWC-based form for activity logging.
 
 
-## 🛠️ Tech Stack
+## 🛠️ <a name="techstack">Tech Stack</a>
 - Salesforce (Admin + Developer)
 - Custom Objects, Flows, Validation Rules
 - Apex Triggers (optional)
@@ -66,7 +76,7 @@ B2C & B2B Salesforce CRM implementation
 - Reports & Dashboards
 
 
-## 🛠️ Technical Implementation (Phases)
+## 🔑 <a name="techimp">Technical Implementation (Phases)</a>
 click each to know more
 
 - Phase 1: [Problem Understanding & Industry Analysis](docs_media/Phase_1) 
@@ -81,12 +91,12 @@ click each to know more
 - Phase 10: Final Presentation & Demo Day
 
 
-## 📊 Demo
+## 📊 <a name="demo">Demo<a/>
 - Screenshots in `/reports_dashboards`
 - Video Link: [To be added]
 
 
-## 📂 Repository Structure
+## 📂 <a name="repostr">Repository Structure</a>
 ```
 Salesforce-Project-GreenTrack/
 │
