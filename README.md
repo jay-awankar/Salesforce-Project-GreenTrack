@@ -1,7 +1,10 @@
-<div>
-    <img src="assets/Salesforce.com_logo.png" alt="salesforce-img"  />
+<div align=center>
+    <img src="assets/Salesforce.com_logo.png" alt="salesforce-img" width="200"  />
 </div>
-# 🌍 GreenTrack – Sustainability & Carbon Footprint Tracker
+<div align=center>
+    
+# 🌍 GreenTrack <br> Sustainability & Carbon Footprint Tracker
+</div>
 
 ## 📋 <a name="table">Table of Content</a>
 - 🔎 [Introduction](#introduction)
