@@ -6,15 +6,18 @@ GreenTrack is a Salesforce CRM solution designed to track eco-friendly activitie
 - Project Type: B2C & B2B Salesforce CRM implementation
 - Target Users: Community members, NGOs, and admins/managers tracking sustainability initiatives
 
-## 📌 Problem Statement
-Communities and organizations often organize eco-friendly activities such as tree plantations, recycling drives, and awareness campaigns. But tracking these efforts, calculating their real environmental impact, and recognizing contributors is mostly manual and unorganized. GreenTrack solves this by providing a centralized Salesforce-based platform to log activities, calculate carbon footprint reduction, and showcase results through dashboards and leaderboards.
-
 ## 🚀 Features
 - Log sustainability activities
 - Automatic CO₂ reduction calculation
 - Badge assignment (Bronze/Silver/Gold)
 - Leaderboards & gamification
 - Real-time dashboards
+
+## ✅ Use Cases
+1. Activity Logging
+2. Impact Calculation
+3. Gamification & Recognition
+4. Reporting & Dashboards
 
 ## 🛠️ Tech Stack
 - Salesforce (Admin + Developer)
@@ -23,26 +26,38 @@ Communities and organizations often organize eco-friendly activities such as tre
 - Lightning Web Components (optional)
 - Reports & Dashboards
 
-## ✅ Use Cases
-1. Activity Logging
-2. Impact Calculation
-3. Gamification & Recognition
-4. Reporting & Dashboards
-
 ## 🛠️ Technical Implementation (Phases)
+click each to know more
 
-- Phase 1: Requirement Gathering & Process Mapping.
-- Phase 2: Salesforce Org Setup (Profiles, Roles, Permissions).
-- Phase 3: Data Modeling (Objects: Eco Activity, Impact Score, Badge).
-- Phase 4: Process Automation (Flows for CO₂ calculation, badge assignment).
-- Phase 5: Apex (optional triggers for advanced logic).
-- Phase 6: UI (LWC for activity logging, dashboards).
-- Phase 7: Reports & Dashboards (Leaderboards, CO₂ trends).
-- Phase 8: Final Demo & GitHub Updates.
+- Phase 1: Problem Understanding & Industry Analysis
+- Phase 2: Org Setup & Configuration
+- Phase 3: Data Modeling & Relationships
+- Phase 4: Process Automation (Admin)
+- Phase 5: Apex Programming (Developer)
+- Phase 6: User Interface Development
+- Phase 7: Integration & External Access
+- Phase 8: Data Management & Deployment
+- Phase 9: Reporting, Dashboards & Security Review
+- Phase 10: Final Presentation & Demo Day
 
 ## 📊 Demo
 - Screenshots in `/reports_dashboards`
 - Video Link: [To be added]
 
 ## 📂 Repository Structure
-See `/docs` for problem statement, use cases, and daily updates.
+```
+Salesforce-Project-GreenTrack/
+│
+├── docs_and_media/
+│   ├── Problem_Statement.md
+│   └── All_Phases_docs_and_media
+│
+├── reports_dashboards/       # Screenshot exports
+│
+├── demo/
+│   ├── Demo_Script.md
+│   └── Demo_Video_Link.txt
+│
+└── README.md
+```
+See `/docs_and_media` for problem statement and daily updates.
