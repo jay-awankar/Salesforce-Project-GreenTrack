@@ -1,0 +1,3 @@
+# 📌Problem Statement
+
+Communities and organizations often organize eco-friendly activities such as tree plantations, recycling drives, and awareness campaigns. But tracking these efforts, calculating their real environmental impact, and recognizing contributors is mostly manual and unorganized. GreenTrack solves this by providing a centralized Salesforce-based platform to log activities, calculate carbon footprint reduction, and showcase results through dashboards and leaderboards.

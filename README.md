@@ -48,7 +48,7 @@ click each to know more
 ```
 Salesforce-Project-GreenTrack/
 │
-├── docs_and_media/
+├── docs_media/
 │   ├── Problem_Statement.md
 │   └── All_Phases_docs_and_media
 │
