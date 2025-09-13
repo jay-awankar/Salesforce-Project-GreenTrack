@@ -106,16 +106,19 @@ click each to know more
 ```
 Salesforce-Project-GreenTrack/
 │
-├── docs_media/
-│   ├── Problem_Statement.md
+├── assets/
+│
+├── docs_n_media/    # Phases wise distribution
 │   └── All_Phases_docs_and_media
 │
-├── reports_dashboards/       # Screenshot exports
+├── greentrack/      # Project
 │
 ├── demo/
 │   ├── Demo_Script.md
 │   └── Demo_Video_Link.txt
 │
+├── Problem_Statement.md/
+│
 └── README.md
 ```
-See `/docs_and_media` for problem statement and daily updates.
+See `/docs_n_media` for phases and daily updates.
