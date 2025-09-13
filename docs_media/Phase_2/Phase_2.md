@@ -26,6 +26,8 @@
 - Admin (highest)
     ↳ NGO Manager
     ↳ Participants
+<img src="/assets/Role_Hierarchy.svg" alt="role_hierarchy_img" width=200 />
+
 - Ensures data visibility rolls up for monitoring but stays restricted at participant level.
 
 ## 6. Permission Sets
