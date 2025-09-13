@@ -1,8 +1,8 @@
 # 🌍 GreenTrack – Sustainability & Carbon Footprint Tracker
 
 ## 📋 <a name="table">Table of Content</a>
-- 🔎 [Introduction](#-introduction)
-- 🎯 [Objectives](#-objectives)
+- 🔎 [Introduction](#introduction)
+- 🎯 [Objectives](#objectives)
 - 🚀 [Features](#features)
 - ✅ [Use Cases](#usecases)
 - 🛠️ [Tech Stack](#techstack)
