@@ -29,7 +29,7 @@ GreenTrack is a Salesforce CRM solution designed to track eco-friendly activitie
 ## 🛠️ Technical Implementation (Phases)
 click each to know more
 
-- Phase 1: Problem Understanding & Industry Analysis
+- Phase 1: [Problem Understanding & Industry Analysis](docs_media/Phase_1) 
 - Phase 2: Org Setup & Configuration
 - Phase 3: Data Modeling & Relationships
 - Phase 4: Process Automation (Admin)
