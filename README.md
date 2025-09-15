@@ -110,7 +110,7 @@ Salesforce-Project-GreenTrack/
 │
 ├── assets/
 │
-├── phases_docs__media/    # Phase wise distribution
+├── phases_docs_media/    # Phase wise distribution
 │   └── All_Phases_docs_and_media
 │
 ├── greentrack/      # Project
