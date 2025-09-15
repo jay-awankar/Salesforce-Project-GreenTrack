@@ -26,7 +26,7 @@
 - Admin (highest) <br>
     ↳ NGO Manager <br>
     ↳ Participants
-<img src="/assets/Role_Hierarchy.svg" alt="role_hierarchy_img" width=500 />
+<img src="https://github.com/jay-awankar/Salesforce-Project-GreenTrack/blob/main/assets/Role_Hierarchy.svg" alt="role_hierarchy_img" width=500 />
 
 - Ensures data visibility rolls up for monitoring but stays restricted at participant level.
 
