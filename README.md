@@ -17,7 +17,8 @@
 - 📂 [Repository Structure](#repostr)
 
 *See `/phases_docs_media` for phases and daily updates (work).*<br>
-*[Doc](https://docs.google.com/document/d/1jT57Jec1Kz3U8RUN8p-Yrdp9u5jsf6sTVkpyzceICLE/edit?usp=sharing) click to access documentary*
+<a href="https://docs.google.com/document/d/1jT57Jec1Kz3U8RUN8p-Yrdp9u5jsf6sTVkpyzceICLE/edit?usp=sharing">
+*Doc</a> click to access documentary*
 
 ## 🔎 <a name="introduction">Introduction</a>
 GreenTrack is a Salesforce CRM solution designed to track eco-friendly activities like tree plantations, recycling drives, and awareness events. It calculates environmental impact (e.g., CO₂ saved) and provides real-time dashboards for organizations to monitor sustainability initiatives.
