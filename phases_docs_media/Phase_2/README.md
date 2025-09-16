@@ -10,17 +10,21 @@
 - Business Hours & Holidays:
     Business hours: 9 AM – 6 PM (for activity/event scheduling).
     Holidays: Added national holidays to simulate event blackout dates.
-<img src="Company_Info_Setup.png" alt="Company_Info_Setup" />
+- <img src="Company_Info_Setup.png" alt="Company_Info_Setup" />
 
 ## 3. Fiscal Year Settings
 - Standard fiscal year setup → Jan–Dec.
 - Activities & CO₂ impact will be tracked quarterly and yearly.
+- <img src="Fiscal_Year_Setup.png" alt="Fiscal_Year_Setup.png" />
 
 ## 4. User Setup & Licenses
 - Profiles Created:
 - System Admin (default).
+- <img src="Admin_Setup.png" alt="Admin_Setup" width=50% />
 - NGO Manager Profile → Manage activities & dashboards.
+- <img src="Manager_Setup.png" alt="Manager_Setup" width=50% />
 - Participant Profile → Log activities, view own impact.
+- <img src="Participant1-Setup.png" alt="Participant1-Setup" width=50% />
 - Licenses Assigned: Salesforce Platform license for non-admin users.
 
 ## 5. Roles & Hierarchy
