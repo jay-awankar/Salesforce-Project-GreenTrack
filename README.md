@@ -89,8 +89,8 @@ B2C & B2B Salesforce CRM implementation
 ## 🔑 <a name="techimp">Technical Implementation (Phases)</a>
 click each to know more
 
-- Phase 1: [Problem Understanding & Industry Analysis](docs_media/Phase_1) 
-- Phase 2: [Org Setup & Configuration](docs_media/Phase_2)
+- Phase 1: [Problem Understanding & Industry Analysis](phases_docs_media/Phase_1) 
+- Phase 2: [Org Setup & Configuration](phases_docs_media/Phase_2)
 - Phase 3: Data Modeling & Relationships
 - Phase 4: Process Automation (Admin)
 - Phase 5: Apex Programming (Developer)
