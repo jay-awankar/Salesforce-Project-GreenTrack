@@ -10,6 +10,7 @@
 - Business Hours & Holidays:
     Business hours: 9 AM – 6 PM (for activity/event scheduling).
     Holidays: Added national holidays to simulate event blackout dates.
+<img src="Company_Info_Setup.png" alt="Company_Info_Setup" />
 
 ## 3. Fiscal Year Settings
 - Standard fiscal year setup → Jan–Dec.
