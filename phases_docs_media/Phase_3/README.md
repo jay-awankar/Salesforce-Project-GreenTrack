@@ -24,16 +24,21 @@ Create these:
 		- Trees Planted (Number)
 		- Waste Recycled (Number in kg)
 		- Description (Long Text Area)
+  <img src="Eco_Activity_Object_Setup.png" alt="Eco_Activity_Object_Setup" width=50% />
+  
 ### 2) Impact Score (Impact_Score__c)
    	Stores CO₂ savings (auto-calculated from activities).<br>
 	- Key Fields:
 		- Total CO₂ Saved (Formula: e.g., Trees_Planted * 21 + Waste_Recycled * 1.5)
 		- Level (Picklist: Beginner, Intermediate, Champion)
+  <img src="Impact_Score_Object_Setup.png" alt="Impact_Score_Object_Setup" width=50% />
+  
 ### 3) Badge (Badge__c)
    	Recognition awarded to participants.<br>
 	- Key Fields:
 		- Badge Name (Bronze, Silver, Gold, Platinum)
 		- Awarded Date (Date)
+  <img src="Badge_Object_Setup.png" alt="Badge_Object_Setup" width=50% />
 
 
 ## 3) Standard Objects Used
