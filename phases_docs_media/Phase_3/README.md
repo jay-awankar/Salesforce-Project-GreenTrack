@@ -64,7 +64,7 @@ Create Record Types for Eco Activity:
 - Tree Plantation
 - Recycling
 - Awareness Drive
-
+<img src="RecordTypes_Setup.png" alt="RecordTypes_Setup" width=50% />
 This allows different Page Layouts (e.g., “Trees Planted” field only shows for Tree Plantation).
 
 
@@ -72,6 +72,7 @@ This allows different Page Layouts (e.g., “Trees Planted” field only shows f
 - Eco Activity Layout: Show Activity details, Trees Planted/Waste Recycled.
 - Impact Score Layout: Show total CO₂ saved, level.
 - Badge Layout: Show badge name, awarded date, related user.
+<img src="PageLayout_Setup.png" alt="PageLayout_Setup" width=50% />
 Add related lists so managers can see Activities logged under User and Badges earned.
 
 
