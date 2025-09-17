@@ -50,8 +50,11 @@ Create these:
 Open Schema Builder (Setup → Quick Find → Schema Builder).<br>
 Relationships:
 - User ↔ Eco Activity: Lookup (one user can log many activities).
+- <img src="User-EcoActivity.png" alt="User-EcoActivity" width=50% />
 - Eco Activity ↔ Impact Score: Master-Detail (each activity contributes to a score record).
+- <img src="EcoActivity-ImpactScore.png" alt="EcoActivity-ImpactScore" width=50% />
 - User ↔ Badge: Lookup (user may earn multiple badges).
+- <img src="User-Badge.png" alt="User-Badge" width=50% />
 
 Use Master-Detail when the child should depend on the parent (Impact Score tied to Activity). Use Lookup when records can live independently (Badge can exist without User temporarily).
 
