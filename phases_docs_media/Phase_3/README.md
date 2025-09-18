@@ -78,7 +78,10 @@ Add related lists so managers can see Activities logged under User and Badges ea
 
 ## 7) Compact Layouts
 - Compact Layout for Eco Activity → Display: Activity Type, Date, Location, Trees Planted.
-- Makes mobile & Lightning UI concise.
+- Compact Layout for Impact Score→ Display: Total CO2 Saved, Level.
+- Compact Layout for Badge→ Display: Badge Date, Awarded Date.
+
+Makes mobile & Lightning UI concise.
 
 
 ## 8) Validation Rules
