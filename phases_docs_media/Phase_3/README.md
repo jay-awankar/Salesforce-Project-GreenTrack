@@ -59,7 +59,18 @@ Relationships:
 Use Master-Detail when the child should depend on the parent (Impact Score tied to Activity). Use Lookup when records can live independently (Badge can exist without User temporarily).
 
 
-## 5) Record Types (Optional but adds clarity)
+## 5) Flows
+Flow to Automatically Create an Impact Score Record when an Eco Activity is created.
+- Start: Record-Triggered Flow 
+- Create Impact Score >>> Determine Impact Level
+	- Beginner
+	- Intermediate
+	- Champion
+- End
+<img src="" alt="" width=50% />
+
+
+## 6) Record Types (Optional but adds clarity)
 Create Record Types for Eco Activity:
 - Tree Plantation
 - Recycling
@@ -68,7 +79,7 @@ Create Record Types for Eco Activity:
 This allows different Page Layouts (e.g., “Trees Planted” field only shows for Tree Plantation).
 
 
-## 6) Page Layouts
+## 7) Page Layouts
 - Eco Activity Layout: Show Activity details, Trees Planted/Waste Recycled.
 - <img src="EcoActivity_PageLayout.png" alt="EcoActivity_PageLayout" width=50% />
 - Impact Score Layout: Show total CO₂ saved, level.
@@ -78,7 +89,7 @@ This allows different Page Layouts (e.g., “Trees Planted” field only shows f
 Add related lists so managers can see Activities logged under User and Badges earned.
 
 
-## 7) Compact Layouts
+## 8) Compact Layouts
 - Compact Layout for Eco Activity → Display: Activity Type, Date, Location, Trees Planted.
 - <img src="EcoActivity_CompactLayout.png" alt="EcoActivity_CompactLayout" width=50% />
 - Compact Layout for Impact Score→ Display: Total CO2 Saved, Level.
@@ -89,7 +100,7 @@ Add related lists so managers can see Activities logged under User and Badges ea
 Makes mobile & Lightning UI concise.
 
 
-## 8) Validation Rules
+## 9) Validation Rules
 Create validation rules to maintain clean data:
 #### Example:
 	Trees must be > 0 for Tree Plantation:
@@ -100,7 +111,7 @@ Create validation rules to maintain clean data:
 	Error Message: “Please enter a valid number of trees planted.”
 <img src="EcoActivity_ValidationRule.png" alt="EcoActivity_ValidationRule" width=50% />
 
-## 9) Deliverables for Phase 3
+## 10) Deliverables for Phase 3
 1) Custom Objects created (Eco Activity, Impact Score, Badge).
 2) Fields added (Activity details, CO₂ saved formula).
 3) Relationships defined (User ↔ Activity ↔ Impact Score; User ↔ Badge).
@@ -110,7 +121,7 @@ Create validation rules to maintain clean data:
 7) GitHub commit: phase3: data model objects, fields, relationships, validation rules.
 
 
-## 10) Testing Checklist
+## 11) Testing Checklist
 - Log in as a Participant → Create Eco Activity (Tree Plantation).
 - Verify Impact Score auto-calculates CO₂ saved.
 - Verify Badge is not directly editable by the Participant.
