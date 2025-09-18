@@ -70,16 +70,21 @@ This allows different Page Layouts (e.g., “Trees Planted” field only shows f
 
 ## 6) Page Layouts
 - Eco Activity Layout: Show Activity details, Trees Planted/Waste Recycled.
+- <img src="EcoActivity_PageLayout.png" alt="EcoActivity_PageLayout" width=50% />
 - Impact Score Layout: Show total CO₂ saved, level.
+- <img src="ImpactScore_PageLayout.png" alt="ImpactScore_PageLayout" width=50% />
 - Badge Layout: Show badge name, awarded date, related user.
-<img src="PageLayout_Setup.png" alt="PageLayout_Setup" width=50% />
+- <img src="Badge_PageLayout.png" alt="Badge_PageLayout" width=50% />
 Add related lists so managers can see Activities logged under User and Badges earned.
 
 
 ## 7) Compact Layouts
 - Compact Layout for Eco Activity → Display: Activity Type, Date, Location, Trees Planted.
+- <img src="EcoActivity_CompactLayout.png" alt="EcoActivity_CompactLayout" width=50% />
 - Compact Layout for Impact Score→ Display: Total CO2 Saved, Level.
+- <img src="ImpactScore_CompactLayout.png" alt="ImpactScore_CompactLayout" width=50% />
 - Compact Layout for Badge→ Display: Badge Date, Awarded Date.
+- <img src="Badge_CompactLayout.png" alt="Badge_CompactLayout" width=50% />
 
 Makes mobile & Lightning UI concise.
 
@@ -93,7 +98,7 @@ Create validation rules to maintain clean data:
   		OR(ISBLANK(Trees_Planted__c), Trees_Planted__c <= 0)
 	)
 	Error Message: “Please enter a valid number of trees planted.”
-
+<img src="EcoActivity_ValidationRule.png" alt="EcoActivity_ValidationRule" width=50% />
 
 ## 9) Deliverables for Phase 3
 1) Custom Objects created (Eco Activity, Impact Score, Badge).
