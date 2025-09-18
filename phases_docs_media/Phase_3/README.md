@@ -67,7 +67,7 @@ Flow to Automatically Create an Impact Score Record when an Eco Activity is crea
 	- Intermediate
 	- Champion
 - End
-<img src="" alt="" width=50% />
+<img src="Flow.png" alt="Flow" width=50% />
 
 
 ## 6) Record Types (Optional but adds clarity)
