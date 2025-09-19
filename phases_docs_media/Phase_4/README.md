@@ -10,14 +10,14 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
 - 📍Example: Trees must be > 0 for Tree Plantation
     - Go to: Setup → Object Manager → Eco Activity → Validation Rules → New
     - Rule Name: Validate_Trees_Planted
-            Formula:
-            ```
-            AND(
-                ISPICKVAL(Activity_Type__c, "Tree Plantation"),
-                OR(ISBLANK(Trees_Planted__c), Trees_Planted__c <= 0)
-            )
-            Error Message: “Please enter a valid number of trees planted.”
-            ```
+    - Formula:
+      ```
+      AND(
+          ISPICKVAL(Activity_Type__c, "Tree Plantation"),
+          OR(ISBLANK(Trees_Planted__c), Trees_Planted__c <= 0)
+      )
+      Error Message: “Please enter a valid number of trees planted.”
+      ```
 
 👉 Similarly, create for Waste Recycled: must be > 0 when Activity Type = Recycling.
 
@@ -39,9 +39,11 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
     - Object: Impact Score
     - Trigger: When record updated
     - Logic:
-        ```IF CO₂ Saved ≥ 1000 → Create Badge (Gold)
+        ```
+        IF CO₂ Saved ≥ 1000 → Create Badge (Gold)
         IF CO₂ Saved ≥ 500 → Create Badge (Silver)
-        ELSE IF CO₂ Saved ≥ 100 → Create Badge (Bronze)```
+        ELSE IF CO₂ Saved ≥ 100 → Create Badge (Bronze)
+        ```
     - Assign the Badge to related User.
 
 
