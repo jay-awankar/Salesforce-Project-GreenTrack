@@ -20,7 +20,7 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
       ```
 
 👉 Similarly, create for Waste Recycled: must be > 0 when Activity Type = Recycling.
-
+    <img src="Validation_Rules.png" alt="Validation_Rules" width=50% />
 
 ## 3) Flow Builder – CO₂ Calculation
 - Purpose: Auto-calculate CO₂ saved when an Eco Activity is created.
@@ -31,6 +31,7 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
         Formula for CO₂ saved =
         ```(Trees_Planted__c * 21) + (Waste_Recycled__c * 1.5)```
 - Update field CO2_Saved__c in Impact Score.
+<img src="CO2Update_Flow.png" alt="CO2Update_Flow" width=50% />
 
 
 ## 4) Flow Builder – Badge Assignment
@@ -45,13 +46,14 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
         ELSE IF CO₂ Saved ≥ 100 → Create Badge (Bronze)
         ```
     - Assign the Badge to related User.
-
+<img src="BadgeAssignment_Flow.png" alt="BadgeAssignment_Flow" width=50% />
 
 ## 5) Email Alerts & Custom Notifications
 - Purpose: Motivate users.
 - Email Alert:
     - Setup → Email Alerts → New.
     - Example: Send email “Congrats! You earned a badge 🎉” to the Participant when a Badge record is created.
+    - <img src="Email_Alert.png" alt="Email_Alert" width=50% />
 - Custom Notification (Lightning):
     - Setup → Notification Builder → Custom Notifications.
     - Create “GreenTrack Milestone Reached.”
@@ -62,7 +64,7 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
 📌 Note: Salesforce is moving away from Workflow Rules & Process Builder in favor of Flows.
  Still, for academic completeness:
 - Workflow Rule Example: Send email to NGO Manager when an Eco Activity > 500 Trees is logged.
-
+<img src="WorkFlow_Rule.png" alt="WorkFlow_Rule" width=50% />
 
 ## 7) Approval Process (Optional)
 - Example: Big activities (e.g., more than 1000 trees logged) → Require Manager approval before Impact Score updates.
