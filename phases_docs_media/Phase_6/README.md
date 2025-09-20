@@ -12,14 +12,14 @@
       - Badges
   - Dashboards
   - Assign Profiles: Admin, NGO Manager, Participant
-
+<img src="LightningApp_GreenTrack.png" alt="LightningApp_GreenTrack" width=50% />
 👉 This ensures everyone uses the same branded app.
 
 
 ## 2) Create Tabs
 - 📍 Purpose: Give users direct access to custom objects.
 - Setup → Tabs → New → Choose Object → Eco Activity, Impact Score, Badge
-  - Add to GreenTrack App
+- Add to GreenTrack App
 
 
 ## 3) Record Pages (Lightning App Builder)
@@ -27,8 +27,11 @@
 - Setup → Object Manager → Eco Activity → Lightning Record Pages → New
   - Add components:
   - Activity Details section (Type, Date, Location)
+  - <img src="EcoActivity_RecordPage.png" alt="EcoActivity_RecordPage" width=50% />
   - Impact Score (related list)
-  - adges (related list)
+  - <img src="ImpactScore_RecordPage.png" alt="ImpactScore_RecordPage" width=50% />
+  - Badges (related list)
+  - <img src="Badge_RecordPage.png" alt="Badge_RecordPage" width=50% />
 
 
 ## 4) Home Page Layout
@@ -38,6 +41,7 @@
   - Welcome Text (“Welcome to GreenTrack – Together for Sustainability 🌱”)
   - Report Chart: Monthly CO₂ Saved
   - Dashboard Component: Top 5 Contributors
+<img src="HomePage.png" alt="HomePage" width=50% />
 
 
 ## 5) Utility Bar (Optional but adds flair)
@@ -144,7 +148,11 @@
 👉 This lets users quickly log an activity from anywhere in the app.
 
 
-## 7) Deliverables for Phase 6
+## 7) Chart Pattern Example Structure:
+<img src="Charts.png" alt="Charts" width=50% />
+
+
+## 8) Deliverables for Phase 6
 Lightning App (GreenTrack).
 - Tabs (Eco Activity, Impact Score, Badge).
 - Record Pages customized with related lists.
@@ -154,9 +162,10 @@ Lightning App (GreenTrack).
 - GitHub Commit: phase6: lightning app, tabs, record pages, home page, LWC.
 
 
-## 8) Testing Checklist
+## 9) Testing Checklist
 - Log in as a Participant → Open GreenTrack app → See tabs & navigation.
 - Create Eco Activity → Verify related Impact Score is visible.
 - Home Page → Dashboard chart visible.
 - Try Quick Log Activity LWC → Record should save successfully.
+
 
