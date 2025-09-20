@@ -1,5 +1,7 @@
 <div align=center>
-    <img src="assets/Salesforce.com_logo.png" alt="salesforce-img" width="200"  />
+    <img src="assets/Salesforce.com_logo.png" alt="salesforce-img" width=30% height=200  />
+    <span size=200 >+</span>
+    <img src="assets/Smartbridge.png" alt="smartbridge" width=30% height=200 />
 </div>
 <div align=center>
     
@@ -91,14 +93,13 @@ click each to know more
 
 - Phase 1: [Problem Understanding & Industry Analysis](phases_docs_media/Phase_1) 
 - Phase 2: [Org Setup & Configuration](phases_docs_media/Phase_2)
-- Phase 3: Data Modeling & Relationships
-- Phase 4: Process Automation (Admin)
-- Phase 5: Apex Programming (Developer)
-- Phase 6: User Interface Development
-- Phase 7: Integration & External Access
-- Phase 8: Data Management & Deployment
-- Phase 9: Reporting, Dashboards & Security Review
-- Phase 10: Final Presentation & Demo Day
+- Phase 3: [Data Modeling & Relationships](phases_docs_media/Phase_3)
+- Phase 4: [Process Automation (Admin)](phases_docs_media/Phase_4)
+- Phase 5: [Apex Programming (Developer)](phases_docs_media/Phase_5)
+- Phase 6: [User Interface Development](phases_docs_media/Phase_6)
+- Phase 7: Data Management & Deployment
+- Phase 8: Reporting, Dashboards & Security Review
+- Phase 9: Final Presentation & Demo Day
 
 
 ## 📊 <a name="demo">Demo<a/>
