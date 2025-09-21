@@ -97,7 +97,7 @@ click each to know more
 - Phase 4: [Process Automation (Admin)](phases_docs_media/Phase_4)
 - Phase 5: [Apex Programming (Developer)](phases_docs_media/Phase_5)
 - Phase 6: [User Interface Development](phases_docs_media/Phase_6)
-- Phase 7: [Reporting, Dashboards & Security Review](phases_docs_media/Phase_6)
+- Phase 7: [Reporting, Dashboards & Security Review](phases_docs_media/Phase_7)
 - Phase 8: Final Presentation & Demo Day
 
 
