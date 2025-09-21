@@ -8,34 +8,44 @@
 
 
 ## 2) Reports to Create
-🔹 Report 1: Monthly CO₂ Saved
+- Report 1: Monthly CO₂ Saved
+  
     - Report Type: Eco Activities with Impact Scores.
     - Group by: Activity Date (Calendar Month).
     - Metric: Sum of CO₂ Saved.
     - Chart: Line Chart.
+  
  👉 Shows sustainability progress over time.
 
-🔹 Report 2: Activity Breakdown by Type
+- Report 2: Activity Breakdown by Type
+  
     - Report Type: Eco Activities.
     - Group by: Activity Type (Tree Plantation, Recycling, Awareness Drive).
     - Metric: Count of Activities.
     - Chart: Pie Chart.
+  
  👉 Shows which type of activity is most common.
 
-🔹 Report 3: Top Contributors (Leaderboard)
+- Report 3: Top Contributors (Leaderboard)
+  
     - Report Type: Eco Activities with Users.
     - Group by: User.
     - Metric: Sum of CO₂ Saved.
     - Sort: Descending.
     - Chart: Bar Chart.
+  
  👉 Highlights who contributed the most.
 
-🔹 Report 4: Badge Distribution
+- Report 4: Badge Distribution
+  
     - Report Type: Badges with Users.
     - Group by: Badge Level (Bronze, Silver, Gold).
     - Metric: Count of Badges.
     - Chart: Bar Chart (Bronze/Silver/Gold colors).
+  
  👉 Visualizes gamification aspect.
+
+ <img src="Reports.png" alt="Reports" />
 
 ✅ With these 4 reports, I covered time trends, distribution, leaderboard, gamification.
 
@@ -43,15 +53,18 @@
 ## 3) Dashboard Setup
 📍 Create a Dashboard named: “GreenTrack Sustainability Dashboard”
 - Add Components:
+  
     - Line Chart – Monthly CO₂ Saved.
     - Pie Chart – Activity Breakdown.
     - Bar Chart – Top 5 Contributors.
     - Bar Chart – Badge Distribution.
 - Dashboard Settings:
+  
     - View As: “NGO Manager” (so managers see org-wide data).
     - Refresh: Daily.
     - Add Green/Eco theme color scheme.
-
+      
+ <img src="Dashboard.png" alt="Dashboard" />
 
 ## 4) Security Review (Optional)
 Data security. In Developer Edition, keeping it simple:
