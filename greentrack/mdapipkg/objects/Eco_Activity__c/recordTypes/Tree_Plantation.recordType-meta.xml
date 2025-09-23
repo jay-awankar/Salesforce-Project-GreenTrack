@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tree_Plantation</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Eco_Activity_Compact</compactLayoutAssignment>
+    <description>Activities related to planting trees.</description>
+    <label>Tree Plantation</label>
+    <picklistValues>
+        <picklist>Activity_Type__c</picklist>
+        <values>
+            <fullName>Awareness Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recycling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tree Plantation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
