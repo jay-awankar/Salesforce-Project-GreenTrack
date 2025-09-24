@@ -1,89 +1,38 @@
-# Phase 7: Reporting, Dashboards & Security Review
+
+# Phase 7: Integration & External Access (Optional)
 
 
-## 1) Why This Phase Matters
-- Reports + Dashboards = Storytelling with data.
-- Security = Trust + Compliance (must show awareness).
-- Strong reports and 1 dashboard.
+## 1) Why Integration Matters
+In GreenTrack, integration could:
+- Fetch carbon footprint conversion rates from an external API.
+- Allow data sharing with NGO websites.
+- Send real-time notifications to collaboration tools (Slack, Teams).
 
 
-## 2) Reports to Create
-- Report 1: Monthly CO₂ Saved
-  
-    - Report Type: Eco Activities with Impact Scores.
-    - Group by: Activity Date (Calendar Month).
-    - Metric: Sum of CO₂ Saved.
-    - Chart: Line Chart.
-  
- 👉 Shows sustainability progress over time.
-
-- Report 2: Activity Breakdown by Type
-  
-    - Report Type: Eco Activities.
-    - Group by: Activity Type (Tree Plantation, Recycling, Awareness Drive).
-    - Metric: Count of Activities.
-    - Chart: Pie Chart.
-  
- 👉 Shows which type of activity is most common.
-
-- Report 3: Top Contributors (Leaderboard)
-  
-    - Report Type: Eco Activities with Users.
-    - Group by: User.
-    - Metric: Sum of CO₂ Saved.
-    - Sort: Descending.
-    - Chart: Bar Chart.
-  
- 👉 Highlights who contributed the most.
-
-- Report 4: Badge Distribution
-  
-    - Report Type: Badges with Users.
-    - Group by: Badge Level (Bronze, Silver, Gold).
-    - Metric: Count of Badges.
-    - Chart: Bar Chart (Bronze/Silver/Gold colors).
-  
- 👉 Visualizes gamification aspect.
-
- <img src="Reports.png" alt="Reports" />
-
-✅ With these 4 reports, I covered time trends, distribution, leaderboard, gamification.
+## 2) Named Credentials (Best Practice for Secure Callouts)
+Purpose: Store API URL + authentication securely.
+- Setup → Quick Find → Named Credentials → New.
+- Example:
+    - Label: CarbonAPI
+    - URL: https://api.carboninterface.com
+    - Identity Type: Anonymous (for demo)
+    - This ensures hard-code URLs in Apex aren't required.
 
 
-## 3) Dashboard Setup
-📍 Create a Dashboard named: “GreenTrack Sustainability Dashboard”
-- Add Components:
-  
-    - Line Chart – Monthly CO₂ Saved.
-    - Pie Chart – Activity Breakdown.
-    - Bar Chart – Top 5 Contributors.
-    - Bar Chart – Badge Distribution.
-- Dashboard Settings:
-  
-    - View As: “NGO Manager” (so managers see org-wide data).
-    - Refresh: Daily.
-    - Add Green/Eco theme color scheme.
-      
- <img src="Dashboard.png" alt="Dashboard" />
-
-## 4) Security Review (Optional)
-Data security. In Developer Edition, keeping it simple:
-- Field Level Security (FLS):
-    - Eco Activity → Only NGO Manager/Admin can see CO₂ impact numbers.
-    - Participants see only their own activities.
-- Sharing Settings (OWD):
-    - Eco Activity: Private.
-    - Impact Score: Controlled by Parent (Eco Activity).
-    - Badge: Public Read Only.
-- Login IP Ranges (Optional):
-    - Admin → Restrict by IP range (demo purpose).
-    - Audit Trail:
-    - Setup → View Audit Trail → Document this screenshot.
+## 3) Remote Site Settings (Mandatory for Callouts)
+Salesforce blocks external calls unless the endpoint is whitelisted.
+- Setup → Quick Find → Remote Site Settings → New.
+    - Remote Site Name: CarbonAPI_Site
+    - Remote Site URL: https://api.carboninterface.com
 
 
-## 5) Testing Checklist
-- Login as NGO Manager → Dashboard shows org-wide contributions.
-- Login as Participant → Only personal activities visible.
-- Verify dashboard refresh works.
-- Run Audit Trail → See admin actions logged.
+## 5) Platform Events (Optional)
+Simulate real-time notifications (e.g., large eco activity triggers an event).
+- Setup → Platform Events → New.
+    - Example: Sustainability_Event__e with fields (Activity, CO₂ Saved, User).
+    - Trigger → When activity > 1000 CO₂ saved → Publish event.
 
+
+## 6) OAuth & Authentication (Mention for Docs)
+- If a real API requires login, will configure OAuth under Named Credentials.
+- Considered OAuth but kept integration simple for demo.

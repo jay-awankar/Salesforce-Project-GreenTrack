@@ -1,60 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <!-- Apex -->
     <types>
-        <members>*</members>
+        <members>EcoActivityHandler</members>
+        <members>EcoActivityTrigger</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
+        <members>EcoActivityTrigger</members>
         <name>ApexTrigger</name>
     </types>
+
+    <!-- Custom Objects -->
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Eco_Activity__c</members>
+        <members>Impact_Score__c</members>
+        <members>Badge__c</members>
         <name>CustomObject</name>
     </types>
+
+    <!-- Record Types -->
     <types>
-        <members>*</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>Tree_Plantation</members>
+        <members>Recycling</members>
+        <members>Awareness_Drive</members>
         <name>RecordType</name>
     </types>
+
+    <!-- Page Layouts -->
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>Eco_Activity__c-Eco Activity Layout</members>
+        <members>Impact_Score__c-Impact Score Layout</members>
+        <members>Badge__c-Badge Layout</members>
+        <name>Layout</name>
     </types>
+
+    <!-- Profiles -->
     <types>
-        <members>*</members>
+        <members>Participant Profile</members>
+        <members>NGO Manager Profile</members>
+        <name>Profile</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>Badge Manager Access</members>
+        <members>Dashboard Viewer</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Flows -->
+    <types>
+        <members>CO2_Calculation_Flow</members>
+        <members>Badge_Assignment_Flow</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Lightning Components -->
+    <types>
+        <members>*</members> <!-- only if you created any custom LWCs -->
         <name>LightningComponentBundle</name>
     </types>
+
+    <!-- Dashboards -->
     <types>
-        <members>*</members>
+        <members>GreenTrack Dashboard</members>
         <name>Dashboard</name>
     </types>
+
+    <!-- Reports -->
     <types>
-        <members>*</members>
+        <members>GreenTrack Reports</members>
         <name>Report</name>
     </types>
-    <version>58.0</version>
+
+    <version>64.0</version>
 </Package>
