@@ -19,7 +19,7 @@ Without automation, users would have to manually calculate CO₂ saved, assign b
       Error Message: “Please enter a valid number of trees planted.”
       ```
 
-👉 Similarly, create for Waste Recycled: must be > 0 when Activity Type = Recycling.
+👉 Similarly, Waste Recycled: must be > 0 when Activity Type = Recycling.
     <img src="Validation_Rules.png" alt="Validation_Rules" width=50% />
 
 ## 3) Flow Builder – CO₂ Calculation
