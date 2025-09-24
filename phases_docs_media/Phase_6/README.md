@@ -149,7 +149,10 @@
 
 
 ## 7) Chart Pattern Example Structure:
-<img src="/assets/Charts.png" alt="Charts" width=50% />
+<img src="chart1.png" alt="Chart1" width=50% />
+<img src="chart2" alt="Chart2" width=50% />
+<img src="chart3" alt="Chart3" width=50% />
+<img src="chart4" alt="Chart4" width=50% />
 
 
 ## 8) Deliverables for Phase 6
@@ -167,6 +170,7 @@ Lightning App (GreenTrack).
 - Create Eco Activity → Verify related Impact Score is visible.
 - Home Page → Dashboard chart visible.
 - Try Quick Log Activity LWC → Record should save successfully.
+
 
 
 
