@@ -41,11 +41,13 @@ Prevent duplicate activities (e.g., same user logs same activity twice).
 
 
 ## 5) VS Code & SF for Deployment
-- Create quicklogactivity:
+- Create quicklogactivity:<br>
 ```sf lightning generate component --name quickLogActivity --type lwc --output-dir force-app/main/default/lwc```
+<img src="Create_quicklogactivity.png" alt="Create_quicklogactivity" width=50% />
 
-- Pull metadata (objects, flows, lwc, triggers) into local folder:
+- Pull metadata (objects, flows, lwc, triggers) into local folder:<br>
 ```sf retrieve metadata --manifest ./manifest/package.xml --target-org GreenTrack --output-dir ./mdapipkg```
+<img src="PULL.png" alt="PULL" width=50% />
 
 - Commit to GitHub:
     ```
