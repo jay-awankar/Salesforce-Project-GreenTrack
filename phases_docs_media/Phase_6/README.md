@@ -41,7 +41,8 @@
   - Welcome Text (“Welcome to GreenTrack – Together for Sustainability 🌱”)
   - Report Chart: Monthly CO₂ Saved
   - Dashboard Component: Top 5 Contributors
-<img src="HomePage.png" alt="HomePage" width=50% />
+<img src="GreenTrack_HomePage.png" alt="GreenTrack_HomePage" width=50% />
+<img src="Home.png" alt="HomePage" width=50% />
 
 
 ## 5) Utility Bar (Optional but adds flair)
@@ -171,6 +172,7 @@ Lightning App (GreenTrack).
 - Create Eco Activity → Verify related Impact Score is visible.
 - Home Page → Dashboard chart visible.
 - Try Quick Log Activity LWC → Record should save successfully.
+
 
 
 
