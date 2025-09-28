@@ -100,7 +100,7 @@ click each to know more
 - Phase 7: [Integration & External Access (Optional)](phases_docs_media/Phase_7)
 - Phase 8: [Data Management (Optional) & Deployment (GreenTrack)](phases_docs_media/Phase_8)
 - Phase 9: [Reporting, Dashboards & Security Review](phases_docs_media/Phase_9)
-- Phase 10: [Final Presentation & Demo Day](phases_docs_media/Phase_10)
+- Phase 10: [Final Presentation & Demo Day](https://drive.google.com/file/d/1CxdYil2a6qpPv0q5UtCJ4smvnaYRQOAb/view?usp=drive_link)
 
 
 ## 📊 <a name="demo">Demo<a/>
