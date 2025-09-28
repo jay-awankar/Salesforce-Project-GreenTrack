@@ -120,8 +120,7 @@ Salesforce-Project-GreenTrack/
 ├── greentrack/      # Project
 │
 ├── demo/
-│   ├── Demo_Script.md
-│   └── Demo_Video_Link.txt
+│   └── Demo_Video_Link
 │
 ├── Problem_Statement.md/
 │
