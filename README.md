@@ -19,8 +19,8 @@
 - 📂 [Repository Structure](#repostr)
 
 *See `/phases_docs_media` for phases and daily updates (work).*<br>
-
-*To access documentary -> [Click Me](https://docs.google.com/document/d/1jT57Jec1Kz3U8RUN8p-Yrdp9u5jsf6sTVkpyzceICLE/edit?usp=sharing)*
+*[Click me to access video presentation](https://drive.google.com/file/d/1CxdYil2a6qpPv0q5UtCJ4smvnaYRQOAb/view?usp=drive_link)*<br>
+*To access documentary -> [Click Here](https://docs.google.com/document/d/1jT57Jec1Kz3U8RUN8p-Yrdp9u5jsf6sTVkpyzceICLE/edit?usp=sharing)*
 
 ## 🔎 <a name="introduction">Introduction</a>
 GreenTrack is a Salesforce CRM solution designed to track eco-friendly activities like tree plantations, recycling drives, and awareness events. It calculates environmental impact (e.g., CO₂ saved) and provides real-time dashboards for organizations to monitor sustainability initiatives.
@@ -105,7 +105,7 @@ click each to know more
 
 ## 📊 <a name="demo">Demo<a/>
 - Screenshots and Docs in `/phases_docs_media`
-- Video Link: [To be added]
+- Video Link: [Click Me](https://drive.google.com/file/d/1CxdYil2a6qpPv0q5UtCJ4smvnaYRQOAb/view?usp=drive_link)
 
 
 ## 📂 <a name="repostr">Repository Structure</a>
